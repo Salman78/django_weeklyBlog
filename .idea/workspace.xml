@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73a402e9-0eb0-4541-8225-d6bd7dfe24f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +31,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-155">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+            <state relative-caret-position="280">
+              <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/static/blog/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1245">
+              <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -61,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/templates/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="30">
+              <caret line="2" column="81" selection-start-line="2" selection-start-column="81" selection-end-line="2" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -109,8 +118,9 @@
         <option value="$PROJECT_DIR$/blog/urls.py" />
         <option value="$PROJECT_DIR$/django_weeklyBlog/urls.py" />
         <option value="$PROJECT_DIR$/blog/views.py" />
-        <option value="$PROJECT_DIR$/blog/templates/home.html" />
         <option value="$PROJECT_DIR$/blog/templates/about.html" />
+        <option value="$PROJECT_DIR$/blog/static/blog/main.css" />
+        <option value="$PROJECT_DIR$/blog/templates/home.html" />
         <option value="$PROJECT_DIR$/blog/templates/base.html" />
       </list>
     </option>
@@ -221,18 +231,19 @@
       <updated>1548386842509</updated>
       <workItem from="1548386843921" duration="2592000" />
       <workItem from="1548403233302" duration="4247000" />
-      <workItem from="1548650802626" duration="235000" />
+      <workItem from="1548650802626" duration="1014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7132000" />
+    <option name="totallyTimeSpent" value="7853000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1260" height="710" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25779969" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25779969" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -290,13 +301,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -314,10 +318,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/static/blog/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1245">
+          <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="83" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="81" selection-start-line="2" selection-start-column="81" selection-end-line="2" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-155">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="280">
+          <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
         </state>
       </provider>
     </entry>
