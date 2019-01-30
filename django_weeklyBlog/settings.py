@@ -123,3 +123,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 CRISPY_TEMPLATE_PATH = 'bootstrap4'
+
+LOGIN_REDIRECT_URL = 'blog-home'
