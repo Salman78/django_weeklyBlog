@@ -128,4 +128,4 @@ LOGIN_REDIRECT_URL = 'blog-home'
 LOGIN_URL = 'login'
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media') #where we store our media file
-MEDIA_URL = '' #media url which is accessed by the browser
+MEDIA_URL = '/media/' #media url which is accessed by the browser
