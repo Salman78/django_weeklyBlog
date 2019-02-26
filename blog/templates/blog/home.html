@@ -3,7 +3,8 @@
     {% for post in posts %} <!-- loops through each blog post to apply styles -->
         <!-- article tag added to separate out each blog and give a nice padding effect -->
         <article class="media content-section">
-          <div class="media-body">
+            <img class="rounded-circle article-img" src="{{ post.author.profile.image.url }}">
+            <div class="media-body">
             <div class="article-metadata">
               <a class="mr-2" href="#">{{ post.author }}</a>
               <small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
